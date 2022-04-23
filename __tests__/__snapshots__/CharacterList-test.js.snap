@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F51CFF",
+        "flex": 1,
+        "justifyContent": "center",
+        "zIndex": 100,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "white",
+            "flex": 1,
+            "left": 0,
+            "opacity": 0.9,
+            "position": "absolute",
+            "top": 0,
+            "width": 750,
+            "zIndex": 100,
+          },
+          Object {
+            "height": 1334,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "zIndex": 100,
+          }
+        }
+      >
+        <ActivityIndicator
+          color="#0000ff"
+          size="large"
+        />
+        <Text>
+          Loading
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    nestedScrollEnabled={true}
+    style={
+      Object {
+        "marginBottom": 20,
+        "marginTop": 20,
+        "paddingLeft": 16,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "lineHeight": 32,
+            "marginBottom": 20,
+            "marginTop": 20,
+          }
+        }
+      >
+        List of Characters
+      </Text>
+      <View
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <RCTScrollView
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={false}
+          invertStickyHeaders={true}
+          inverted={true}
+          keyExtractor={[Function]}
+          onContentSizeChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={
+            Array [
+              Object {
+                "transform": Array [
+                  Object {
+                    "scaleY": -1,
+                  },
+                ],
+              },
+              undefined,
+            ]
+          }
+          viewabilityConfigCallbackPairs={Array []}
+        >
+          <View />
+        </RCTScrollView>
+        <View
+          style={
+            Object {
+              "flexBasis": "0%",
+              "flexDirection": "row",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "paddingRight": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": "disabled",
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#c0cf80",
+                "borderRadius": 8,
+                "display": "flex",
+                "elevation": 3,
+                "flexBasis": "0%",
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": 64,
+                "justifyContent": "space-around",
+                "marginRight": 16,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 1,
+                },
+                "shadowOpacity": 0.125,
+                "shadowRadius": 3,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "fontSize": 25,
+                  },
+                  Object {},
+                  Object {
+                    "fontFamily": "anticon",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "lineHeight": 28,
+                }
+              }
+            >
+              Back
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": "disabled",
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#c0cf80",
+                "borderRadius": 8,
+                "display": "flex",
+                "elevation": 3,
+                "flexBasis": "0%",
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "flexShrink": 1,
+                "height": 64,
+                "justifyContent": "space-around",
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 1,
+                },
+                "shadowOpacity": 0.125,
+                "shadowRadius": 3,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#fff",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "lineHeight": 28,
+                }
+              }
+            >
+              Next
+            </Text>
+            <Text
+              allowFontScaling={false}
+              selectable={false}
+              style={
+                Array [
+                  Object {
+                    "color": "white",
+                    "fontSize": 25,
+                  },
+                  Object {},
+                  Object {
+                    "fontFamily": "anticon",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
